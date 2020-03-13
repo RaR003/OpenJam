@@ -1,0 +1,174 @@
+/*import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');*/
+/*
+a wildcard selector for outlining all of your elements you may find this handy for visualising divs
+remove it when you are done, or if you don't want it */
+
+
+
+body {
+    background-color: #82DDB5;
+    background-image: url('img/illustration.gif'), url('img/texture.jpg');
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800px, auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+
+#nav{
+    background-color: #6B9;
+    border-bottom: 2px dashed #487; 
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center; 
+    word-spacing: 2em;
+}
+
+#header{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#logo{
+    max-width: 360px;
+}
+
+#description, #date {
+    max-width: 220px;
+}
+
+.register_btn{
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #FFF;
+    cursor: pointer; 
+    display: inline-block; 
+    font-weight: bold; 
+    margin-top: 25px; 
+    padding: 15px 30px;       
+}
+
+#what {
+    color: rgb(59, 125, 145);
+    background-color: rgba(198, 239, 225, 0.9);
+    margin-top: 360px; 
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15pt;
+    
+    
+}
+
+#sponsor_logos{
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+.center {
+    text-align: center;
+    font-size: 30pt;
+        
+}
+
+#why{
+    color: rgb(59, 125, 145);
+    text-align: left;
+    background-color: rgba(185, 243,224, 0.9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15pt;
+    
+}
+
+#map{
+   text-align: center;
+   
+    
+    
+}
+
+.title-block{
+ position: absolute;
+  bottom: 600px;
+  right: 850px;
+  color: purple;
+  padding-left: 10px;
+  padding-right: 20px;
+    font-size: 30pt;
+
+}
+
+.text-block{ 
+    text-align: right;
+    position: absolute;
+    bottom: 460px;
+    right: 600px;
+    color: purple;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 14pt;
+    word-spacing: 4px;
+    
+}
+
+
+#where { 
+    position: relative;
+    max-width: none;
+    margin: auto;
+    
+}
+
+
+#when {
+    background-image: url(img/wires.png);
+    color:white;
+    background-color: rgba(72, 154, 156, 0.9);
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15pt;
+    
+}
+
+.dashed {
+    border-bottom: 4px dashed white;
+    padding-bottom: 30px;
+}
+
+
+#who {
+      color:rgb(72, 154, 156);
+    background-color: rgba(273, 236, 209, 0.9);
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 15pt;
+}
+
+#footer {
+    padding-top:30px;
+    max-width: 200px; 
+    margin: auto;
+
+}
+
+
+
+
