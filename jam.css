@@ -90,45 +90,18 @@ body {
     
 }
 
-#map{
-   text-align: center;
-   
-    
-    
-}
 
-.title-block{
- position: absolute;
-  bottom: 600px;
-  right: 850px;
-  color: purple;
-  padding-left: 10px;
-  padding-right: 20px;
-    font-size: 30pt;
 
-}
-
-.text-block{ 
-    text-align: right;
-    position: absolute;
-    bottom: 460px;
-    right: 600px;
-    color: purple;
-    padding-left: 10px;
-    padding-right: 20px;
-    font-size: 14pt;
-    word-spacing: 4px;
+#where {
+    background-image: url(img/map.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height:730px;
+    padding-top: 10px;
     
 }
-
-
-#where { 
-    position: relative;
-    max-width: none;
-    margin: auto;
-    
-}
-
 
 #when {
     background-image: url(img/wires.png);
