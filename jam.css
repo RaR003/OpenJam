@@ -68,7 +68,10 @@ body {
 
 #sponsor_logos{
     max-width: 300px;
-    margin: auto;
+    max-height: 100px;
+    padding-top:1px;
+    padding-bottom:20px;
+     margin: auto;
     
 }
 
@@ -104,6 +107,7 @@ body {
     padding-right:500px;
     padding-left:500px;
     font-size: 15pt;
+
 }
 
 
@@ -144,7 +148,7 @@ body {
     padding-top:30px;
     max-width: 200px; 
     margin: auto;
-
+    
 }
 
 
